@@ -1,0 +1,114 @@
+.card {
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 1.75rem;
+    color: #aa0000;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  ul {
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+    line-height: 1.7;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 1rem;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    font-size: 0.95rem;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    font-weight: 600;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    background-color: #aa0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #880000;
+  }
+  
+  .filters {
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .filtersRow {
+    display: inline;
+    gap: 1rem;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+  }
+  
+  .filtersRow input {
+    padding: 0.4rem 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 200px;
+  }
+  
+  .pagination {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination button {
+    margin-right: 0.5rem;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+  }
+  
+
+  
+  .activePage {
+    font-weight: bold;
+  }
+  

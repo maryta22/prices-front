@@ -1,0 +1,18 @@
+.nav {
+    background: #b71c1c;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #ffebee;
+}
